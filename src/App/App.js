@@ -1,8 +1,9 @@
+import Landing from "../Landing/Landing"
 
 function App() {
   return (
-    <div className="bg-black w-full h-[100vh]">
-      
+    <div className="bg-[#000000] w-full h-[100vh]">
+      <Landing />
     </div>
   );
 }

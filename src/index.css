@@ -2,13 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 'blue': '#4f23f1',
+'purple': '#8a6df2',
+'grey': '#b3b3b3', */
+
+@font-face {
+  font-family: Manrope;
+  src: url('Manrope-Bold.ttf');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 code {
