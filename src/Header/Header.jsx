@@ -13,7 +13,7 @@ const Header = () => {
                 <div className='bg-black w-full h-full rounded-[2rem] flex items-center justify-between'>
                     <div className='flex flex-row items-center'>
                         <img src={bardLogo} alt='Bard Signals' className='ml-6 h-8'/>
-                        <h1 className='pl-2 text-2xl'>Bard Signals</h1>
+                        <h1 className='pl-2 text-2xl bg-text-gradient bg-clip-text text-transparent'>Bard Signals</h1>
                     </div>
                     
                     <div className='flex flex-row justify-between items-center h-full w-24 mr-6'>

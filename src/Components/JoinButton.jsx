@@ -2,9 +2,14 @@
 const JoinButton = () => {
 
     return (
-        <a href='https://t.me/bardpaybot'>
-            <button className='bg-gradient-background h-[45px] w-[150px] rounded-[22px] border-solid border-[1px] border-[#b3b3b3] font-extrabold text-md mt-4'>Join Us</button>
-        </a>
+        <div className='h-[47px] w-[152px] rounded-[22px] mt-4  flex items-center justify-center'>
+            <div className='bg-gradient-background h-[47px] w-[152px] rounded-[22px] absolute z-0 animate-rotate-grad'/>
+            <div className='bg-black h-[45px] w-[150px] rounded-[22px] absolute z-10 '/>
+            <a href='https://t.me/bardpaybot' className='z-20'>
+                <button className='relative bg-[#5023f13d] h-[45px] w-[150px] rounded-[22px] font-extrabold text-md'>Join Us</button>
+            </a>
+        </div>
+
     )
 }
 
