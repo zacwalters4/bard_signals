@@ -3,6 +3,7 @@ import bardLogo from '../Images/bard_signals_logo.png'
 import telegramLogo from '../Images/Telegram.png'
 import xLogo from '../Images/X.png'
 import discordLogo from '../Images/Discord.png'
+import JoinButtonHeader from '../Components/JoinButtonHeader'
 
 
 const Header = () => {
@@ -15,18 +16,17 @@ const Header = () => {
                         <img src={bardLogo} alt='Bard Signals' className='ml-6 h-8'/>
                         <h1 className='pl-2 text-2xl bg-text-gradient bg-clip-text text-transparent'>Bard Signals</h1>
                     </div>
-                    
-                    <div className='flex flex-row justify-between items-center h-full w-24 mr-6'>
-                        <a href='https://t.me/bardpaybot'>
+                    <div className='flex flex-row justify-between items-center h-full  mr-2'>
+                        {/* <a href='https://t.me/bardpaybot'>
                             <img src={telegramLogo} className='h-6'/>
+                        </a> */}
+                        <a href='https://discord.gg/bardsignals' className='h-8 w-8 flex justify-center items-center border-2 border-[#5023f1] rounded-[2.5rem] overflow-hidden mr-2'>
+                            <img src={discordLogo} className='h-[20px] border-solid' />
                         </a>
-                        <a href='https://x.com/BardSignals'>
-                            <img src={xLogo} className='h-6'/>
+                        <a href='https://x.com/BardSignals' className='h-8 w-8 flex justify-center items-center border-2 border-[#4f23f1] rounded-[2.5rem] overflow-hidden mr-2'>
+                            <img src={xLogo} className='h-[20px] border-solid' />
                         </a>
-                        <a href='https://discord.gg/bardsignals'>
-                            <img src={discordLogo} className='h-6' />
-                        </a>
-                        
+                        <JoinButtonHeader />
                     </div>
                 </div>
             </div>

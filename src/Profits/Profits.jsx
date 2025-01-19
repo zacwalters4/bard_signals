@@ -1,4 +1,3 @@
-import bardLogo from '../Images/bard_signals_logo.png'
 import PNL from '../Components/pnl'
 import clown from '../Images/BardPNLs/clown43x.jpg'
 import quarm from '../Images/BardPNLs/quarm16x.png'
