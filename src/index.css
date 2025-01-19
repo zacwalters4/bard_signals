@@ -19,6 +19,8 @@
   scrollbar-color: #5023f12a black;
 }
 
+html { scroll-behavior: smooth; }
+
 body {
   margin: 0;
   font-family: "Manrope Regular", sans-serif;

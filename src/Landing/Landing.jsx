@@ -26,7 +26,7 @@ const Landing = () => {
                 <div className='w-[250px] h-[175px] rounded-[20px] bg-[#5023f110] border-solid border-[1px] border-[#5023f1] flex flex-col items-center'>
                     <div className='w-[80%] mt-4'>
                         <h3 className='text-lg bg-text-gradient bg-clip-text text-transparent'>Conviction</h3>
-                        <p className='text-sm text-[#b3b3b3] mt-2'>A confluence based signal system alerts you when multiple wallets enter a coin, along with an average star rating.</p>
+                        <p className='text-sm text-[#b3b3b3] mt-2'>A confluence-based signal system alerts you when multiple wallets enter a coin, along with an average star rating.</p>
                     </div>
                 </div>
             </div>

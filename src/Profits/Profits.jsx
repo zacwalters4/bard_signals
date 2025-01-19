@@ -13,12 +13,12 @@ const Profits = () => {
     const PNLArray = [clown, quarm, edging38, father, fumo, manic, thl, xrp]
 
     return (
-        <div className='pt-24 w-full flex flex-col justify-center items-center'>
+        <div className='pt-24 w-full flex flex-col justify-center items-center' id='profits'>
             <h1 className='text-5xl font-extrabold bg-text-gradient bg-clip-text text-transparent'>Profit Showcase</h1>
             <h2 className='text-[#b3b3b3] mt-2 text-lg'>Real profits from our members</h2>
-            <div className='w-[60%] flex flex-row flex-wrap justify-evenly'>
-                {PNLArray.map(image => {
-                    return <PNL link={image} />
+            <div className='w-[60%] flex flex-row flex-wrap justify-evenly mt-4'>
+                {PNLArray.map((image, key) => {
+                    return <PNL link={image} key={key} />
                 })}
             </div>
 

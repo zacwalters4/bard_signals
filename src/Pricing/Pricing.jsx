@@ -5,7 +5,7 @@ const Pricing = () => {
 
 
     return (
-        <div className='pt-24 w-full flex flex-col justify-center items-center'>
+        <div className='pt-24 w-full flex flex-col justify-center items-center' id='pricing'>
             <h1 className='text-5xl font-extrabold bg-text-gradient bg-clip-text text-transparent pb-2'>Premium Pricing</h1>
             <h2 className='text-[#b3b3b3] text-lg'>Competitive pricing for our members</h2>
             <div className='bg-gradient-background rounded-[20px] p-[2px] mt-8'>
