@@ -6,10 +6,10 @@ const Pricing = () => {
 
     return (
         <div className='pt-24 w-full flex flex-col justify-center items-center' id='pricing'>
-            <h1 className='text-5xl font-extrabold bg-text-gradient bg-clip-text text-transparent pb-2'>Premium Pricing</h1>
-            <h2 className='text-[#b3b3b3] text-lg'>Competitive pricing for our members</h2>
+            <h1 className='md:text-5xl text-3xl font-extrabold bg-text-gradient bg-clip-text text-transparent text-center'>Premium Pricing</h1>
+            <h2 className='text-[#b3b3b3] mt-2 mb-4 md:text-lg text-sm text-center w-[95%]'>Competitive pricing for our members</h2>
             <div className='bg-gradient-background rounded-[20px] p-[2px] mt-8'>
-                <div className='w-[450px] h-[300px] rounded-[20px] border-solid border-[1px] bg-black border-[#5023f1] flex flex-col items-center'>
+                <div className='sm:w-[450px] w-[350px] h-[300px] rounded-[20px] border-solid border-[1px] bg-black border-[#5023f1] flex flex-col items-center'>
                     <div className='w-[95%] mt-4 bg-border-gradient pb-[1px]'>
                         <div className='flex flex-row items-center justify-center w-full bg-black pb-[8px]'>
                             <img src={bardLogo} alt='Bard Signals' className='h-12'/>

@@ -47,7 +47,7 @@ const Header = () => {
                         </div>
                         <HamburgerMenu dropdownShow={dropdownShow} toggleDropdown={toggleDropdown}/>
                     </div>
-                    <div className={`${dropdownShow ? 'flex' : 'hidden'} flex flex-col w-[50%] items-center mt-4`}>
+                    <div className={`${dropdownShow ? 'flex' : 'hidden'} flex flex-col w-[50%] items-center mt-4 `}>
                         <a href='#profits' className='w-full '>
                             <button onClick={toggleDropdown} className='bg-text-gradient bg-clip-text text-transparent hover:bg-white text-lg h-10 w-full'>
                                 <h3>Profits</h3>

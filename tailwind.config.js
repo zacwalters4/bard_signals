@@ -57,7 +57,10 @@ module.exports = {
           '92%': { background: 'linear-gradient(331.2deg, rgba(0,0,0,1) 0%,  rgba(138,109,242,1) 100%)'},
           '96%': { background: 'linear-gradient(345.6deg, rgba(0,0,0,1) 0%,  rgba(138,109,242,1) 100%)'},
           '100%': { background: 'linear-gradient(360deg, rgba(0,0,0,1) 0%,  rgba(138,109,242,1) 100%)'},
-        }
+        },
+        transitionProperty: {
+          'height': 'height'
+      },
       },
       animation: {
         'pulse-out': 'pulseOut 4s ease infinite',
