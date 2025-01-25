@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         'gradient-background': 'linear-gradient(50deg, rgba(79,35,241,1) 0%,  rgba(138,109,242,1) 100%)',
         'gradient-background-2': 'linear-gradient(135deg, rgba(138,109,242,1) 0%, rgba(79,35,241,1) 100%)',
+        'gradient-background-3': 'linear-gradient(135deg, rgba(138,109,242,.2) 0%, rgba(79,35,241,.2) 100%)',
         'text-gradient': 'linear-gradient(rgba(255, 255, 255, 0.87) 22.5%, rgb(255, 255, 255) 100%)',
         'border-gradient': 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(179,179,179,1) 50%, rgba(0,0,0,1) 100%)',
         'border-gradient-vert': 'linear-gradient(0deg, rgba(0,0,0,1) 20%, rgba(179,179,179,1) 50%, rgba(0,0,0,1) 80%)'
