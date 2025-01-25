@@ -7,7 +7,7 @@ import bardLines from '../Images/bard_lines.png'
 
 function App() {
   return (
-    <div className="bg-[#000000] w-full pt-16 bg-no-repeat bg-top bg-cover" style={{backgroundImage: `url(${bardLines})`}}>
+    <div className="bg-[#000000] w-full pt-16 bg-no-repeat bg-top" style={{backgroundImage: `url(${bardLines})`}}>
       <Landing />
       <Profits />
       <Pricing />
