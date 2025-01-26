@@ -1,8 +1,10 @@
 import PNL from '../Components/pnl'
 import clown from '../Images/BardPNLs/clown43x.jpg'
+import cupsey from '../Images/BardPNLs/cupsey14x.jpg'
 import quarm from '../Images/BardPNLs/quarm16x.png'
 import edging38 from '../Images/BardPNLs/edging38x.png'
 import edging22 from '../Images/BardPNLs/edging22x.jpg'
+import elon from '../Images/BardPNLs/elon20x.png'
 import father from '../Images/BardPNLs/father80x.jpg'
 import fumo from '../Images/BardPNLs/fumo44x.jpg'
 import manic from '../Images/BardPNLs/Manic14x.png'
@@ -12,7 +14,7 @@ import griffain from '../Images/BardPNLs/griffain6x.jpg'
 
 const Profits = () => {
 
-    const PNLArray = [griffain, clown, quarm, edging38, fumo, manic, thl, xrp]
+    const PNLArray = [griffain, clown, elon, quarm, edging38, fumo, manic,  xrp]
 
     return (
         <div className='pt-24 w-full flex flex-col justify-center items-center' id='profits'>
