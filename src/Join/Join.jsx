@@ -10,7 +10,7 @@ const Join = () => {
                     <div className='w-full h-full bg-cover flex flex-col justify-center items-center' style={{backgroundImage: `url(${bardFront})`}}>
                         <img src={bardLogo} alt='Bard Signals Logo' className='h-40 drop-shadow-logo-drop-shadow'/>
                         <h1 className='md:text-6xl text-3xl font-extrabold bg-text-gradient bg-clip-text text-transparent text-center pb-2'>Join Bard Signals Today</h1>
-                        <h2 className='text-[#b3b3b3] mt-2 mb-4 md:text-lg text-sm text-center w-[95%]'>The #1 confluence, wallet, and criteria-based signal bot on Solana</h2>
+                        <h2 className='text-[#b3b3b3] mt-2 mb-4 md:text-lg text-sm text-center w-[95%]'>Want to catch all the narratives on-chain? Bard makes it simple, join now</h2>
                         <JoinButton />
                     </div>
             </div>
